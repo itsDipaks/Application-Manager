@@ -1,16 +1,15 @@
 import './App.css'
 import ApplicationForm from './Components/ApplicationForm'
 import Navbar from './Components/Navbar'
+import CombineRoutes from './Routes/CombineRoutes'
 
 function App() {
 
   return (
     <div className="App">
       <Navbar/>
-      <ApplicationForm/>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+     <CombineRoutes/>
+   
     </div>
   )
 }
